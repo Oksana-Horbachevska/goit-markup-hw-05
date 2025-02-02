@@ -759,9 +759,9 @@ input {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
+  /* display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px; */
 }
 
 .privacy-link {
@@ -782,6 +782,7 @@ input {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-checkbox:checked + .modal-checkbox-text .modal-checkbox-item {
